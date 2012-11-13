@@ -1,0 +1,12 @@
+{
+    "name": "express-spa",
+    "version": "0.0.1",
+    "private": false,
+    "scripts": {
+        "start": "node express-spa"
+    },
+    "dependencies": {
+        "express": "3.0.0rc5",
+        "jade": "*"
+    }
+}

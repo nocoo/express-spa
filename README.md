@@ -3,10 +3,17 @@ express-spa
 
 Single page app based on express.js
 
+## What is it all about?
+
+express-spa provides an approach of how to build a single page web application.
+The basic idea of express-spa is to hijack a specified class of HTML &lt;a&gt; element, and using its href property to load
+a page fragment, intert it into current page, avoid default page refresh behavior.
+
 ## Dependencies
 
 * nodejs: [http://nodejs.org/](http://nodejs.org/)
 * expressjs: [http://expressjs.com/](http://expressjs.com/)
+* history.js: [https://github.com/balupton/History.js/](https://github.com/balupton/History.js/)
 
 ## License
 
